@@ -2,14 +2,14 @@ import styled from "styled-components"
 
 export const Wrapper = styled.div`
     width: 100%;
-    height: 450px;
+    height: 550px;
     background: ${props => props.theme.defaultColor};
     overflow: hidden;
 
     .wrapper-typing{
         width: 100%;
         position: absolute;
-        top: 30%;
+        top: 28%;
         left: 50%;
         transform: translate(-50%, -50%);
 
@@ -45,6 +45,6 @@ export const Wrapper = styled.div`
         height: 100%;
         background-color: #fff;
         transform: rotate(2deg);
-        margin: 380px -15%;
+        margin: 480px -15%;
     }
 `
