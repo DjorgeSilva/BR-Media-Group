@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
     width: 100%;
     height: fit-content;
     background:${props => props.theme.primaryColor};
-    position: absolute;
+    position: relative;
     padding: 50px 0;
 
     /* @media (min-width: 1100px){

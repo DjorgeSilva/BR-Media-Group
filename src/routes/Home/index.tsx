@@ -5,6 +5,7 @@ import * as s from "./home.style"
 import { Banner } from '../../Components/Banner'
 import { About } from '../../Components/About'
 import { Brand } from '../../Components/Brands'
+import {Numeros} from "../../Components/Numeros"
 
 export const Home: React.FC = (): JSX.Element => {
     return (
@@ -12,6 +13,7 @@ export const Home: React.FC = (): JSX.Element => {
             <Banner />
             <About />
             <Brand/>
+            <Numeros/>
         </s.Wrapper>
     )
 }
