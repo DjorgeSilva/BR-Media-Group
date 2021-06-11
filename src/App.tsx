@@ -44,7 +44,7 @@ function App() {
 
           <GlobalStyles />
 
-          <Header />
+          <Header isOpen={isOpen} setIsOpen={setIsOpen}/>
 
           <Switch>
 
