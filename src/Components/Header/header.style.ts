@@ -6,6 +6,7 @@ export const Wrapper = styled.header`
     background: ${props=> props.theme.defaultColor};
     position: fixed;
     top: 0;
+    z-index: 10000;
 `
 
 export const Container = styled.div`

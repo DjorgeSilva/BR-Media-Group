@@ -11,12 +11,15 @@ export const About: React.FC = (): JSX.Element => {
 
                 <div className="wrapper-txt">
                     <h2>O MIS vai além de uma plataforma que conecta marcas e creators. Somos uma comunidade de influenciadores que compartilha experiências. Aqui estamos sempre aprendendo, ensinando e evoluindo.</h2>
+                    <button>Saiba mais</button>
                 </div>
 
                 <div className="wrapper-img">
                     <img src={about} alt="imagem about" />
                 </div>
             </s.Container>
+
+            <div className="inner"></div>
         </s.Wrapper>
     )
 }

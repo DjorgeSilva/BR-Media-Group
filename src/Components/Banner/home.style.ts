@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
             position: absolute;
             top: -40%;
             left: 50%;
-            transform: translate(-50%, -20%);
+            transform: translate(-50%, -25%);
         }
 
         .typewriter::after {
