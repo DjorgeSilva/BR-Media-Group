@@ -15,8 +15,10 @@ function App() {
 
   const theme = {
     //colors:
-    primaryColor: "#F9522A",
-    defaultColor: "#fff",
+    primaryColor: "#A31D83",
+    defaultColor: "#FF953E",
+    whiteColor: "#fff",
+    blackColor: "#fff",
 
     //fonts:
     primaryFont: 'Roboto, sans-serif',
