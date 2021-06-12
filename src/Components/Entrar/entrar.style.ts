@@ -35,21 +35,48 @@ export const Container = styled.div`
     .row{
         width: 95%;
         margin: 0 auto;
-        margin-top: 50px;
+        margin: 50px auto;
         
         .coluna{
-            background: #CDCDCD;
             padding: 0;
             margin-bottom: 20px;
 
-            .wrapper-title{
-                padding: 12px 5px;
-                background: ${props => props.theme.primaryColor};
+            .body{
+                height: fit-content;
+
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                color:  ${props => props.theme.whiteColor};
+
+                @media (min-width: 776px){
+                    height: 250px;
+                }
+
+                @media (min-width: 1000px){
+                    height: 180px;
+                }
+
+                .title{
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: ${props => props.theme.primaryColor};
+                    font-weight: bold;
+                }
+
+                .txt{
+                    text-align: center;
+                    margin-top: 20px; 
+                }
+
             }
+
+            .img{
+                width: 100%;
+                height: 180px;
+                object-fit: cover;
+            }
+
         }
     }
 `
