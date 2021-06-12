@@ -5,15 +5,17 @@ import * as s from "./home.style"
 import { Banner } from '../../Components/Banner'
 import { About } from '../../Components/About'
 import { Brand } from '../../Components/Brands'
-import {Numeros} from "../../Components/Numeros"
+import { Numeros } from "../../Components/Numeros"
+import { Entrar } from '../../Components/Entrar'
 
 export const Home: React.FC = (): JSX.Element => {
     return (
         <s.Wrapper>
             <Banner />
             <About />
-            <Brand/>
-            <Numeros/>
+            <Brand />
+            <Numeros />
+            <Entrar />
         </s.Wrapper>
     )
 }
