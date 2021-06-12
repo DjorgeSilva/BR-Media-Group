@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/MIS-website/static/js/main.9eb69fa2.chunk.js",
+    "main.js.map": "/MIS-website/static/js/main.9eb69fa2.chunk.js.map",
+    "runtime-main.js": "/MIS-website/static/js/runtime-main.b76f380b.js",
+    "runtime-main.js.map": "/MIS-website/static/js/runtime-main.b76f380b.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/MIS-website/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.1497d1eb.chunk.js": "/MIS-website/static/js/2.1497d1eb.chunk.js",
+    "static/js/2.1497d1eb.chunk.js.map": "/MIS-website/static/js/2.1497d1eb.chunk.js.map",
+    "index.html": "/MIS-website/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/MIS-website/static/css/2.61b4cb56.chunk.css.map",
+    "static/js/2.1497d1eb.chunk.js.LICENSE.txt": "/MIS-website/static/js/2.1497d1eb.chunk.js.LICENSE.txt",
+    "static/media/cadastrar.1f0555f7.jpeg": "/MIS-website/static/media/cadastrar.1f0555f7.jpeg",
+    "static/media/cadastre-rede-social.da1a75d6.jpeg": "/MIS-website/static/media/cadastre-rede-social.da1a75d6.jpeg",
+    "static/media/comunidade.da8c73f5.jpeg": "/MIS-website/static/media/comunidade.da8c73f5.jpeg",
+    "static/media/img-about.2380fe4d.jpg": "/MIS-website/static/media/img-about.2380fe4d.jpg",
+    "static/media/modelo.e1d19c49.jpeg": "/MIS-website/static/media/modelo.e1d19c49.jpeg",
+    "static/media/verifique.6cdcf46f.jpeg": "/MIS-website/static/media/verifique.6cdcf46f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b76f380b.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.1497d1eb.chunk.js",
+    "static/js/main.9eb69fa2.chunk.js"
+  ]
+}
